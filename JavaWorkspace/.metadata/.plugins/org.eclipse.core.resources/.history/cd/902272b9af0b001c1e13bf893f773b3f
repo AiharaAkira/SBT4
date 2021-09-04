@@ -1,0 +1,23 @@
+
+public class TCMain {
+
+	public static void main(String[] args) {
+
+		// 형 변환(Type Casting)
+		// 자료형(그릇 종류) 바꾸는 것
+		
+		//기본 자료형
+		/*
+		 * int랑 int 연산 : 결과는 int
+		 * int랑 double 연산 : 결과는 double 
+		 * 
+		 */
+		double a = 10 / 4;
+		
+		
+		
+		
+
+	}
+
+}

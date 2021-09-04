@@ -1,0 +1,21 @@
+
+public class Printf {
+
+	public static void main(String[] args) {
+
+		// printf : 출력 형식 잡을 때 사용
+		
+		int a = 1;
+		double b = 1.23456;
+		String c = "abc";
+		
+		// %d : 정수형 변수 값 들어올 자리 - %03d : 3자리 수로 출력
+		// %f : 실수형 변수 값 들어올 자리 - %.2ㄹ : 소수점 2자리로 출력
+		// %s : String 변수 값 들어올 자리
+		
+		System.out.printf("%03d", a,"\n");
+		System.out.printf("%.2f", b);
+
+	}
+
+}

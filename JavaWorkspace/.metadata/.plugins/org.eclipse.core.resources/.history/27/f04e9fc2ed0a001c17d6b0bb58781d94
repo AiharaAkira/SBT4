@@ -1,0 +1,17 @@
+
+public class Projec3 {
+	
+	//정말 유용한 단축키
+	//코드 이동: alt + 방향키(위, 아래)
+	// 코드 복사 : ctrl + alt + 방향키(위, 아래)
+	// 코드 한줄 삭제 : ctrl + d
+
+	// perspective : 모드 (java, jsp, python .. )
+	public static void main(String[] args) {
+		
+		System.out.println("helloworld");
+		System.out.println("helloworld");
+		System.out.println("helloworld");
+		
+	}
+}

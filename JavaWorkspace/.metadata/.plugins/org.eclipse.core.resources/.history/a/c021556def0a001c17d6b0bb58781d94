@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// 자기소개
+
+		// 콘솔에 다음을 출력
+		System.out.println("이름 	: 최민우입니다.");
+		System.out.println("나이 	: 24살입니다.");
+		System.out.println("사는곳	: 의정부입니다.");
+		// 가능하면 : 을 정렬 해보세요.
+	}
+}

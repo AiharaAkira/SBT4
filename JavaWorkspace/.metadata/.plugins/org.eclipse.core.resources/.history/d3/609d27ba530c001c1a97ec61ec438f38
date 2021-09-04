@@ -1,0 +1,20 @@
+
+public class Operator2 {
+
+	public static void main(String[] args) {
+
+		//논리 연산자 : 결과로 boolean 나오는 것
+		
+		// >, <, <= <=, ==, !=
+		
+		int x = 10;
+		int y = 20;
+		
+		boolean a = x > y;
+		System.out.println(a);
+		
+		
+		
+	}
+
+}

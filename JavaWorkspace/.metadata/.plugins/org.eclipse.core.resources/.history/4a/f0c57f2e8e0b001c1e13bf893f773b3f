@@ -1,0 +1,26 @@
+//f2번으로 리네이밍 가능
+public class Variable1 {
+	public static void main(String[] args) {
+		System.out.println("a");
+		
+		//변수: 프로그램 진행중 발생하는 데이터의 임시저장
+		
+		// 데이터 담는 그릇
+		// 데이터 수정 가능
+		
+		// 변수 만들기
+		// 자료형(그릇) 변수명(그릇 이름);
+		    int            a;
+		
+		// 내 나이 저장
+		    int myAge; // myAge라는 그릇을 만들기
+		    myAge = 20; //myAge에 20을 담음
+		    
+		    System.out.println(myAge);
+		    System.out.println("myAge");
+		    
+		    
+		    
+		
+	}
+}

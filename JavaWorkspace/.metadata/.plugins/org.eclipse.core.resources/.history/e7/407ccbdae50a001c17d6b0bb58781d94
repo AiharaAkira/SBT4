@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Pokemon> arrayList = new ArrayList<>();
+        arrayList.add(new Pokemon( name:"¿ÃªÛ«ÿææ"));
+        arrayList.add(new Pokemon( name:"¿ÃªÛ«ÿ≤…"));
+        arrayList.add(new Pokemon( name:"¿ÃªÛ«ÿ«Æ"));
+        
+        //HashMap
+        //key -> Value
+        
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "««ƒ´√Ú"));
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "««√Ú"));
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "∂Û¿Ã√Ú"));
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "¿ÃªÛ«ÿææ"));
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "¿ÃªÛ«ÿ≤…"));
+        HashMap<"««ƒ´√Ú">, new Pokemon(name: "¿ÃªÛ«ÿ«Æ"));
+        
+        pokedex.remove( key:"¿ÃªÛ«ÿ«Æ");
+        Pokemon poke003 = pokedex.get("¿ÃªÛ«ÿ≤…");
+        
+        System.out.println(pokedex.get("««ƒ´√Ú"));
+        
+        for(String key : pokedex.keySet()) {
+        	System.out.println(pokedex.get[key]);
+        }
+    }
+    
+    
+}
