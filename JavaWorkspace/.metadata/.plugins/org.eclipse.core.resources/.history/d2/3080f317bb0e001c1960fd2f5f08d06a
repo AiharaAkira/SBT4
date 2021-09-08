@@ -1,0 +1,30 @@
+
+public class CDMain5 {
+
+	public static void main(String[] args) {
+		// if참 else 아닐때 <==>삼항연산자
+		// switch case <=> if 문
+		
+		String line = "호남신";
+		
+		// line 이 경원선이면 타는 곳 1번
+		// line 이 경부선이면 타는 곳 2번
+		// line 이 호남선이면 타는 곳 3번
+		
+		switch (line) {
+		case "경원선":
+			System.out.println("타는곳 1번");
+			break;
+		case "경부선":
+			System.out.println("타는곳 2번");
+			break;
+		case "호남선":
+			System.out.println("타는곳 3번");
+			break;	
+
+		
+		}
+		
+	}
+
+}

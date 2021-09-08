@@ -1,0 +1,20 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Ngame {
+
+	public static void main(String[] args) {
+		
+		//Number Game (Up Down)
+		
+		// 랜덤한 숫자가 하나 필요
+		Scanner sc = new Scanner(System.in);
+		// 랜덤 숫자 뽑을 준비 
+		Random r = new Random();
+		
+		// 랜덤 숫자 뽑기
+		int comNum = r.nextInt(3);
+		System.out.println(comNum);
+	}	
+
+}

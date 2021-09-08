@@ -1,0 +1,29 @@
+
+public class CDMain2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		for(int i = 0; i <= 6; i+=2) {
+			System.out.println("i= "+i);
+		}
+	
+		for(int j = 0; j <= 8; j+=2) {
+			
+			System.out.println("i= "+j);
+//			Thread.sleep(1000);
+			
+		}
+		
+		//1 ~ 10
+		int sum = 0;
+		for(int a = 1; a <= 10; a++) {
+			sum += a;
+			
+		}
+		System.out.println(sum);
+		
+	}
+	
+	
+
+}

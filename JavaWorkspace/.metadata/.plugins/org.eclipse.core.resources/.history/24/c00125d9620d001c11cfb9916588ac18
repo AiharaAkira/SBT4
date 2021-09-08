@@ -1,0 +1,40 @@
+// Conditional Stmt(조건문)
+// 조건문 (if)
+
+//if(조건식){
+//조건이 참일때 실행 될 문장}
+public class CDMain1 {
+
+	public static void main(String[] args) {
+		
+//		if문, else(둘중하나. 맞냐 아니냐)
+		int age = 70;
+		
+		//나이가 70이상이면 "안녕하십니까"출력, 아니면 "어리시네요" 출력
+		if(age >= 70) {
+			System.out.println("안녕하십니까");
+		}else {
+			System.out.println("어리시네요.");
+		}
+		
+		
+		String msg = age >= 70 ? "안녕하십니까" : "어리시네요";
+		System.out.println(msg);
+		
+		//나이가 홀수 10살미만, "ㅋㅋㅋ" 아니면 "ㅎㅎㅎ"
+		
+		int age2 = 3;
+		if(age2 %2 ==1 && age2 < 10) {
+			System.out.println("ㅋㅋㅋ");
+		}else {
+			System.out.println("ㅎㅎㅎ");
+		}
+		
+		//나이가 1살 초과 5살 미만이면 "ㅎㅅㅎ" 출력
+		if(age2 > 1 && age2 < 5) {
+			System.out.println("ㅎㅅㅎ");
+		}
+		
+	}
+
+}

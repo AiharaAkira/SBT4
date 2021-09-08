@@ -1,0 +1,26 @@
+
+public class CDMain4 {
+
+	public static void main(String[] args) {
+		
+		int a = 4;
+		//if, else if(여러개의 조건 중 하나만)
+		
+		//1. 5배수 조건 "a 는 의배수 출력"
+		//2. 2배수 조건 "a 는 의배수 출력"
+		//3. 4배수 조건 "a 는 의배수 출력"
+		//4. "해당 없음"
+		
+		
+		if(a % 5 == 0) {
+			System.out.println(a +"는 5의배수 출력");
+		}else if (a % 2 == 0) {
+			System.out.println(a +"는 2의배수 출력");
+		}else if(a % 4 == 0) {
+			System.out.println(a +"는 4의배수 출력");
+		}else {
+			System.out.println("해당 없음");
+		}
+	}
+
+}
