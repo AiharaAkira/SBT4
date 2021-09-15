@@ -1,0 +1,33 @@
+
+public class AMain5 {
+
+	public static void main(String[] args) {
+
+		// 2차원 배열
+
+		// 학생들의 키, 체중
+
+		int[][] stud = { { 180, 80 }, { 170, 70 }, { 160, 60 }, };
+		// 첫번째 학생의 키
+		System.out.println(stud[0][0]);
+
+		// 세번째 학생의 체중
+		System.out.println(stud[2][1]);
+
+		// 두번째 학생의 체중
+		System.out.println(stud[1][0]);
+		
+		System.out.println("____________________________________");
+		
+		//이름, 사는 곳
+		String[][] ss = {{"건우", "서대문"}, {"재식", "종로"}, {"김초롱", "동대문"}};
+		
+		//두번째 사람 사는 곳 
+		System.out.println(ss[0][1]);
+		//첫번째 사람 이름 
+		System.out.println(ss[0][0]);
+		//세번째 사람 사는 곳, 이름 
+		System.out.println(ss[2][0] + ss[2][1]);
+	}
+
+}

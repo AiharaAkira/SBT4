@@ -1,0 +1,32 @@
+
+public class OMain {
+
+	public static void main(String[] args) {
+		
+		// dog 강아지
+		//나이가 3살
+		int age = 3;
+		//이름이 초코
+		String name = "초코";
+		//체중이 3.5
+		double weight = 3.5;
+		
+		System.out.println("강아지 나이가" + age);
+		System.out.println("강아지 이름이" + name);
+		System.out.println("강아지 체중이" + weight);
+		System.out.println("________________________________");
+		
+		//나이 3 이름 초코 체중 3.5
+//		객체 : 존재하는 모든 것
+//		객체를 만들려면? 클래스 생성이 먼저
+		
+		//실체화(인스턴스, 객체)
+		//클래스명 변수명
+		Dog d1 = new Dog(); // 객체생성
+		
+		
+		
+
+	}
+
+}

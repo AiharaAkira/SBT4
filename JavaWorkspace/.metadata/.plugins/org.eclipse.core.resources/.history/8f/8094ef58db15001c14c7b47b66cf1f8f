@@ -1,0 +1,37 @@
+
+public class UCMain {
+
+	public static void main(String[] args) {
+
+		String s = "안녕";
+
+		String ss = new String("와우 곧 점심");
+
+		// ss의 두번째 글자 출력
+		System.out.println(ss.charAt(1));
+
+		// ss의 세븐째 글자 출력
+		System.out.println(ss.charAt(2));
+
+		// ss의 전체 글자 수 출력
+		System.out.println(ss.length());
+
+		System.out.println("------------------------");
+//		ss에서 곧 이라는 글자가 몇 번째에 있나? 3
+		System.out.println(ss.indexOf("곧"));
+//		ss가 '와'로 시작 하는 가?t
+		System.out.println(ss.startsWith("와"));
+//		ss가 '음'으로 끝나는가?f
+		System.out.println(ss.endsWith("음"));
+//		ss가 '심'으로 끝나는가?t
+		System.out.println(ss.endsWith("심"));
+		System.out.println("------------------------");
+
+		// 2번째 ~ 4번째
+		System.out.println(ss.substring(1, 4));
+		// 곧 -> 이제
+		System.out.println(ss.replace("곧", "이제"));
+
+	}
+
+}

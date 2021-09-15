@@ -72,10 +72,9 @@ public class RSMain3 {
 
 			// 라인
 			for (int j = 1; j < 2; j++) {
-
 				System.out.print(z);
 				if (i % 2 == 0) {
-					z += "z";
+					z += " z";
 				}
 			}
 			System.out.println("");
@@ -88,7 +87,7 @@ public class RSMain3 {
 		for (int i = 1; i <= 5; i++) {
 			
 			// 라인
-			for (int j = 1; j <= i; j++) {
+			for (int j = 2; j <= i; j++) {
 				System.out.print(" ");
 
 			}
@@ -113,6 +112,8 @@ public class RSMain3 {
 		}
 	
 	System.out.println("_________________________");
+	
+	
 
 	}
 	

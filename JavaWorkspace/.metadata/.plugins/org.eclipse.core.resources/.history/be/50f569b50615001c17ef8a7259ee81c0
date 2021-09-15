@@ -1,0 +1,19 @@
+
+public class FMain2 {
+	// 월급을 넣으면 연봉을 구해서 '출력' 해주는 함수
+	public static void calSalary(int salary) {
+		System.out.println("연봉: " + salary * 12 + "원");
+	}
+
+	// 월급을 넣으면 연봉을 구해주는 함수
+	public static int calSalary2(int salary) {
+		return salary * 12;
+	}
+
+	public static void main(String[] args) {
+		calSalary(2000000);
+		System.out.println(calSalary2(100));
+
+	}
+
+}

@@ -1,0 +1,20 @@
+
+public class UCMain {
+
+	public static void main(String[] args) {
+		
+		String s = "안녕";
+		
+		
+		
+		String ss = new String("안녕");
+		
+		//ss의 두번째 글자 출력
+		System.out.println(ss.charAt(1));
+		
+		//ss의 세븐째 글자 출력
+		System.out.println(ss.charAt(2));
+
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class UCMain {
+
+	public static void main(String[] args) {
+		
+		String s = "¾È³ç";
+		
+		String ss = "¾È³ç";
+		
+		String sss = new String("¾È³ç");
+		
+		System.out.println(s == ss);
+		System.out.println(s == sss);
+
+	}
+
+}

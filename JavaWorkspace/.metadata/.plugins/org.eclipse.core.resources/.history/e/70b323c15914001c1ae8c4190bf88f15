@@ -1,0 +1,22 @@
+
+public class AMain5 {
+
+	public static void main(String[] args) {
+
+		// 2차원 배열
+
+		// 학생들의 키, 체중
+
+		int[][] stud = { { 180, 80}, { 170, 70 }, { 160, 60 }, };
+		// 첫번째 학생의 키
+		System.out.println(stud[0][0]);
+
+		// 세번째 학생의 체중
+		System.out.println(stud[2][1]);
+		
+		// 세번째 학생의 체중
+				System.out.println(stud[1][0]);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AMain3 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] aa = new int [4];
+		//00 번째 숫자 입력
+		int sum = 0;
+		for(int i : aa) {
+			System.out.println(i+1+"번째 숫자 입력: ");
+			i = sc.nextInt();
+			
+			sum += i;
+		}
+		
+		System.out.println(sum);
+		
+		
+		
+		//다 더한 총합계 출력
+
+	}
+
+}

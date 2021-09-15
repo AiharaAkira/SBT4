@@ -1,0 +1,48 @@
+
+public class AMain2 {
+
+	public static void main(String[] args) {
+		
+		// 학생의 일어점수 90점
+		int jpScore = 90;
+		System.out.println(jpScore);
+		
+		//배열 (참조형)
+		// 학생 5명의 영어 점수
+		//들어갈 값(요소, element)을 모를때
+		int[] engScore = new int[5]; // 5칸 (칸은 인덱스, 색인)
+		System.out.println(engScore);
+		
+		engScore[0] = 100;
+		engScore[1] = 90;
+		engScore[2] = 80;
+		engScore[3] = 70;
+		engScore[4] = 60;
+		
+		System.out.println("4번째 학생의 점수: " + engScore[3]);
+		System.out.println("_______________________________");
+		
+		// 값을 알고 있을 때(변수 선언, 초기화를 동시에)
+		
+//		int[] engTest = new int[] {10, 20, 30, 40, 50};
+		int[] engTest = {10, 20, 30, 40, 50};
+		System.out.println(engTest[1]);
+		System.out.println(engTest.length); // 몇 칸 짜리?
+		
+		System.out.println("______________________________________________");
+		
+		//jpScore
+		int[] jpTest = {50, 60, 70, 80, 90};
+		
+		//배열의 길이 출력
+		System.out.println(jpTest);
+		
+		//전체 평균계산해서 출력
+		int sum = 0;
+		for(int i = 0; i <= jpTest.length; i++) {
+			sum += jpTest[i];
+		}
+		
+	}
+
+}

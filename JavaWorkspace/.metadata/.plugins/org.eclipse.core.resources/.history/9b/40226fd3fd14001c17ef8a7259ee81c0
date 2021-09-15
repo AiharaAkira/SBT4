@@ -1,0 +1,47 @@
+//함수
+// 관련있는 작업을 한데 묶어 정의 해놓고
+//필요할때 불러 쓴다.
+
+/*
+ * 1. 함수정의
+ * public static void 함수명(){
+ * 내용
+ * }
+ * 1)함수의 인자(argument), 매개변수(parameter): 함수수행에 필요한 것들
+ * public static void 함수명(자료형 변수명, 자료형 변수명, ..(parameter)){
+ * 내용
+ * }
+ *	호출
+ *	2)함수명(2); // 여기서 숫자 2가 인자 (argument) : 실제 그 값
+ *
+ */
+
+public class FMain {
+	
+	public static void info() {
+		System.out.println("이름: mw");
+		System.out.println("나이: 20");
+	}
+	
+	public static void pushUp(int count) {
+		System.out.println("엎드려");
+		System.out.println("________________");
+		for(int i = 0; i<count; i++) {
+			System.out.println("팔굽혀");
+			System.out.println("팔 펴");
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		info();
+		
+		System.out.println("____________________________");
+		
+		pushUp(3);
+
+	}
+	
+
+
+}

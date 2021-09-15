@@ -14,7 +14,7 @@ public class RSMain {
 //		반복횟수가 명확하면 for
 		for (int i = 0; i < 5; i++) {
 
-			System.out.println("ㅎㅎ");
+			System.out.println("hello");
 
 		}
 
@@ -22,7 +22,7 @@ public class RSMain {
 		// 증감식이 없으면 무한 루프
 		int z = 0;
 		while (z < 5) {
-			System.out.println("ㅌㅌ");
+			System.out.println("hi");
 			z++;
 		}
 

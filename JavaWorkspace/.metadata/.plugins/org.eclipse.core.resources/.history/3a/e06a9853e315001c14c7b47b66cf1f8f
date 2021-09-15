@@ -1,0 +1,26 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class UCMain2 {
+
+	public static void main(String[] args) {
+		
+		//시간 / 날짜
+		//java.util에 있는 것
+		
+		Date d = new Date();
+		//현재 정보
+		System.out.println(d);
+		
+		// Date - > String
+		//y M d a h m s
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("MM월 / dd일 hh : mm");
+		System.out.println(sdf.format(d));
+		
+		String s = sdf.format(d);
+		System.out.println(s);
+		
+	}
+
+}

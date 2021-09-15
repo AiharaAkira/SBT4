@@ -21,7 +21,7 @@ public class RSMain2 {
 		
 		
 //		while(true) {
-//			System.out.println("dd");
+//			System.out.println("hi");
 //		}
 		
 		//break; 현재 위치에서 가장 가까운 스위문 또는 반복문 탈출

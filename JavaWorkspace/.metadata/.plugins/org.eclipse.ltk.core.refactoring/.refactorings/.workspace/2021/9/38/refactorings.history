@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Exception Handling&apos; to &apos;10_Exception Handling&apos;&#x0D;&#x0A;- Original element: &apos;Exception Handling&apos;&#x0D;&#x0A;- Renamed element: &apos;Exception Handling&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Exception Handling&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Exception Handling" name="10_Exception Handling" references="true" stamp="1631598217288" version="1.0"/>
+</session>
