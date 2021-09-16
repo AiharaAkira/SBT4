@@ -1,4 +1,5 @@
 
+
 public class OMain {
 
 	public static void main(String[] args) {
@@ -40,9 +41,31 @@ public class OMain {
 		
 		System.out.println("--------------");
 		
+		Computer com = new Computer();
+		com.cpu = 2.5;
+		com.hdd = 255;
+		com.ram = 8;
+		
+		com.printInfo();
+		
+		
 //		컴퓨터를 객체로 표현해주세요
 //		cpu 2.5, ram 8, hdd 256
 //		printinfo()하면 그 컴터 정보 다 나오게
+		System.out.println("-----------------------------");
+		//커피
+//		가격, 맛, 정보출력
+		
+		Coffee americano = new Coffee();
+		americano.price = 2000;
+		americano.taste = true;
+		americano.printInfo();
+		
+		Coffee cafelatee = new Coffee();
+		cafelatee.price = 3000;
+		cafelatee.taste = true;
+		cafelatee.printInfo();
+		
 		
 
 	}
