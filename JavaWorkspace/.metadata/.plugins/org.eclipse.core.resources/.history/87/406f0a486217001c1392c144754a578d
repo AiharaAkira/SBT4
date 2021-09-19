@@ -1,0 +1,11 @@
+
+public class Cal {
+	
+	public Cal(int i, int j) {
+		
+	}
+	public static void add(int a, int b) {
+		System.out.println(a + b);
+		
+	}
+}

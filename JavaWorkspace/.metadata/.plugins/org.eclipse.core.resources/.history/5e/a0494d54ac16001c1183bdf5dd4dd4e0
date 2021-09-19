@@ -1,0 +1,15 @@
+
+public class Animal {
+	
+	String type;
+	int age;
+	public void move() {
+		System.out.println(type + "가 움직입니다.");
+	}
+	
+	public void ageInfo() {
+		System.out.println(type + "는 " + age +"개월");
+	}
+	
+	
+}

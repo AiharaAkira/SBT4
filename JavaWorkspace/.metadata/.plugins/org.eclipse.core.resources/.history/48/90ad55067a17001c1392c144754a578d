@@ -1,0 +1,20 @@
+class Car10 {
+	String color;
+	int speed;
+	static int count = 0;
+	static String Car_Type="½Â¿ëÂ÷";
+
+}
+
+public class EX01_10 {
+
+	public static void main(String[] args) {
+		
+		Car10 myCar1 = new Car10();
+		System.out.println(myCar1);
+		Car10 myCar2 = new Car10();
+		System.out.println(myCar2);
+		Car10 myCar3 = new Car10();
+		System.out.println(myCar3);
+	}
+}

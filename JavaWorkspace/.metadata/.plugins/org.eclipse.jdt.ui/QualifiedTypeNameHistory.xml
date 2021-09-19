@@ -19,4 +19,13 @@
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.dom.CachedNodeListIterator"/>
+    <fullyQualifiedTypeName name="Coffee"/>
+    <fullyQualifiedTypeName name="Shopping"/>
+    <fullyQualifiedTypeName name="Car5"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="Car08"/>
+    <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="Car10"/>
+    <fullyQualifiedTypeName name="Product"/>
 </qualifiedTypeNameHistroy>

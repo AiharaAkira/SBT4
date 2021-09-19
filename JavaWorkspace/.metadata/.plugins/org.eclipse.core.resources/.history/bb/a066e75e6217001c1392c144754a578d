@@ -1,0 +1,13 @@
+
+public class MOMain {
+	
+	
+
+	public static void main(String[] args) {
+		
+		Cal c = new Cal(10, 20);
+		
+
+	}
+
+}

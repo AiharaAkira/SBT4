@@ -1,0 +1,17 @@
+
+public class Goods {
+	
+	String productName;
+	int price;
+	public final static String production = "¾ÖÇÃ";
+	public Goods() {
+		
+}
+	public Goods(String productName, int price) {
+		super();
+		this.productName = productName;
+		this.price = price;
+	}
+	
+	
+}

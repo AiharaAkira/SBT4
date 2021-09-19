@@ -1,0 +1,11 @@
+
+public class Person {
+	String name;
+	String gender;
+	
+	public Person() {
+		System.out.println("¿¿æ÷");
+	}
+	
+	
+}

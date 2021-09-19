@@ -1,0 +1,16 @@
+
+public class OMain {
+
+	public static void main(String[] args) {
+		
+		//애플 쇼핑몰
+		
+		//Goods
+		
+		//품명 : 아이폰 가격이 : 120 제조사 : 애플
+		//품명 : 아이패드 가격이 : 80 제조사 : 애플
+		//품명 : 에어팟 가격이 : 20 제조사 : 애플
+		
+	}
+
+}
