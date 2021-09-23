@@ -18,6 +18,7 @@ public class Person {
 		System.out.println("야근: " + nightWork);
 
 	}
+	
 
 	// 기본 생성자 : 생성자를 전혀 안건드리면 자동으로 만들어줌
 	// 오버로딩 생성자를 만들었다면 자동으로 안만들어줌
