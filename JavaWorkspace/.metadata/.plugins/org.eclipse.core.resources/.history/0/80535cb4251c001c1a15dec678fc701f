@@ -1,0 +1,18 @@
+
+//student is a human
+public class Student extends Human{
+	int jpScore;
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+	//자기소개
+	
+	@Override
+	public void info(){
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(jpScore);
+	}
+	
+	
+}

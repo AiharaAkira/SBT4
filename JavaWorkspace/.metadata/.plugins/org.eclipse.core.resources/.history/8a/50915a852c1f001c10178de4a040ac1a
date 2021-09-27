@@ -1,0 +1,12 @@
+import java.util.Random;
+
+public class IAMain3 {
+
+	public static void main(String[] args) {
+		
+		//·£´ı ¼ıÀÚ Â¦¼ö¸¸
+		Random r = new Random();
+
+	}
+
+}

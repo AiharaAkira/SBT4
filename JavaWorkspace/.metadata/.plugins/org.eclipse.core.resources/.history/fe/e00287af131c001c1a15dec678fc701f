@@ -1,0 +1,9 @@
+
+public class Judge {
+	
+	public void play() {
+		// e 가 랜덤숫자
+		e.ChoosN();
+	}
+	
+}

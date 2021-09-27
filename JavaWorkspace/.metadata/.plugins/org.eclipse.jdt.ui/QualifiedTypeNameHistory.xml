@@ -5,10 +5,8 @@
     <fullyQualifiedTypeName name="java.security.Principal"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.FieldsScanner.CalcOffset"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="EHMain"/>
     <fullyQualifiedTypeName name="EHMain3"/>
@@ -27,5 +25,17 @@
     <fullyQualifiedTypeName name="Car08"/>
     <fullyQualifiedTypeName name="Person"/>
     <fullyQualifiedTypeName name="Car10"/>
+    <fullyQualifiedTypeName name="Calculator"/>
+    <fullyQualifiedTypeName name="Player"/>
+    <fullyQualifiedTypeName name="Enemy"/>
+    <fullyQualifiedTypeName name="Judge"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Sedan01"/>
+    <fullyQualifiedTypeName name="Truck01"/>
     <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Car01"/>
+    <fullyQualifiedTypeName name="Car06"/>
+    <fullyQualifiedTypeName name="Sedan08"/>
 </qualifiedTypeNameHistroy>

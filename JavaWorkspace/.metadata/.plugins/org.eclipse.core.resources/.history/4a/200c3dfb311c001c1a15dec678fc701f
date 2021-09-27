@@ -1,0 +1,23 @@
+
+public class IAMain2 {
+
+	public static void main(String[] args) {
+		//필드 직접 x
+		//나중에 값 o , 생성때 o 
+		
+		//컴퓨터 : 이름, 가격, cpu, ram, hdd
+		Computer c = new Computer();
+		
+		//정보출력
+		
+		//볼펜 : 이름, 가격, 컬러
+		
+		//정보출력
+		
+		//노트북 : 이름, 가격, 무게, 배터리, 용량
+		//정보출력
+		
+
+	}
+
+}

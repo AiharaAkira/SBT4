@@ -1,0 +1,40 @@
+
+public abstract class Hero {
+	String name;
+
+	public Hero() {
+	}
+
+	public Hero(String name) {
+		super();
+		this.name = name;
+	}
+
+	abstract void attack();
+}
+
+ class SuperMan extends Hero {
+	public SuperMan() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	@Override
+	void attack() {
+		System.out.println("아이레이저 공격");
+	}
+}
+
+class IronMan extends Hero {
+	@Override
+	void attack() {
+		System.out.println("아이언맨 공격");
+	}
+}
+
+class Hulk extends Hero {
+	@Override
+	void attack() {
+		// TODO Auto-generated method stub
+		System.out.println("헐크 공격");
+	}
+}

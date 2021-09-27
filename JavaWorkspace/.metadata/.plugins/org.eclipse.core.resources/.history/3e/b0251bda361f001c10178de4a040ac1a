@@ -1,0 +1,56 @@
+
+public class Car {
+	private String model;
+	private String num;
+	
+
+
+	public Car() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Car(String model, String num) {
+		super();
+		this.model = model;
+		this.num = num;
+	}
+
+	private Car(String model, String num, int price) {
+		super();
+		this.model = model;
+		this.num = num;
+		
+		
+	}
+	
+	
+	private Car(String model, String num, String busNum) {
+		super();
+		this.model = model;
+		this.num = num;
+		
+	}
+	
+	void info() {
+		System.out.println(model);
+		System.out.println(num);
+		System.out.println("___________________________");
+		
+	}
+	
+	void info(int price) {
+		System.out.println(model);
+		System.out.println(num);
+		System.out.println();
+		System.out.println("___________________________");
+		
+	}
+	
+	void info(String busNum) {
+		System.out.println(model);
+		System.out.println(num);
+		System.out.println(busNum);
+		System.out.println("___________________________");
+		
+	}
+}

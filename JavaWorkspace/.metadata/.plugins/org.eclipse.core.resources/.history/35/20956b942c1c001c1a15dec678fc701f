@@ -1,0 +1,17 @@
+class EX03{
+	public EX03() {
+		System.out.println("슈클 생성자 (파라미터 없음)");
+	}
+	
+	public EX03(String str) {
+		System.out.println("슈클 생성자 ->" + str);
+	}
+}
+public class EX03{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

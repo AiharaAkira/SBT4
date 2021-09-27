@@ -1,0 +1,17 @@
+
+public class Car02 {
+	public Car02() {
+	System.out.println("슈퍼클래스 호출!");
+		// TODO Auto-generated constructor stub
+	}
+	
+	 public Sedan02 extends Car02 {
+		public Sedan02() {
+		System.out.println("서브클래스 호출!");
+			// TODO Auto-generated constructor stub
+		}
+	
+	public static void main(String[] args) {
+		Sedan02 sedan1 = new Sedan02();
+	}
+}

@@ -1,0 +1,20 @@
+
+public class Judge {
+	
+	public void play(Enemy e, Player p) {
+		// e 가 랜덤숫자
+		int comNum = e.ChoosN();
+		System.out.println(comNum);// 개발자 테스트용
+		
+		int playerNum = 0;
+		
+		for(int turn = 1; true; turn++) {
+			
+			System.out.println("뭐 : ");
+			playerNum = p.say();
+			
+		}
+		
+	}
+	
+}

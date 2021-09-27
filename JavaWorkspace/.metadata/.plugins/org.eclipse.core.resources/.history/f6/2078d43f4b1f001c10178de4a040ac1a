@@ -1,0 +1,24 @@
+class Car08{
+	int speed;
+	String color;
+	
+	void upSpeed(int speed) {
+		this.speed += speed;
+	}
+}
+
+class Sedan08 extends Car08{
+	
+}
+
+class Truck08 extends Car08{
+	
+}
+
+public class Ex08 {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

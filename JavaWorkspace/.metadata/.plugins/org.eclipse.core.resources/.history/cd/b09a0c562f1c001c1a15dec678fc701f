@@ -1,0 +1,23 @@
+class Car04{
+	private String color;
+	int speed;
+}
+
+class Sedan04 extends Car04{
+	//super()
+	void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+}
+
+
+public class EX04 {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

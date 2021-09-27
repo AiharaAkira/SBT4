@@ -1,0 +1,14 @@
+
+public class IAM {
+
+	public static void main(String[] args) {
+		
+		// 사람 = 이름, 나이, 자기소개(정보출력)
+		//병관, 25, 자기소개 
+		
+		Human h1 = new Human("병관", 25);
+		h1.info();
+
+	}
+
+}

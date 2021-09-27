@@ -1,0 +1,39 @@
+class Car05{
+	protected String color;
+	int speed;
+	
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+}
+
+class Sedan05 extends Car05{
+	//super()
+	void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	//privateÀ» °É¸é »ó¼ÓÀÌ ¾ÈµÊ.
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	
+}
+
+
+public class EX05 {
+
+	public static void main(String[] args) {
+		Sedan05 sedan01 = new Sedan05();
+		sedan01.setSpeed(100);
+		sedan01.setColor("»¡°­");
+		System.out.println("½Â¿ëÂ÷¼Óµµ >" + sedan01.speed);
+		System.out.println("½Â¿ëÂ÷»ý»ó >" + sedan01.getColor());
+		
+		
+	}
+
+}

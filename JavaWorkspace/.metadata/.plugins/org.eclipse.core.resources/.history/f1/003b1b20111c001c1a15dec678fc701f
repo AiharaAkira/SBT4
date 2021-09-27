@@ -1,0 +1,11 @@
+
+public class Doctor {
+	public Doctor() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void act1() {
+		//손님한테 정보 물어보기
+		//검사를 하려면 손님 정보 필요
+	}
+}

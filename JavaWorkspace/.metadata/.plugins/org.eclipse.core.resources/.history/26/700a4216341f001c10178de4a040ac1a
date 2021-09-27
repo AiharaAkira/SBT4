@@ -1,0 +1,17 @@
+
+public class ICMAin {
+
+	public static void main(String[] args) {
+		
+		//스포츠카 
+		//모델명, 넘버 > 정보출력
+		
+		//택시
+		//모델명, 넘버, 기본료 > 정보 출력
+		
+		//버스
+		//모델명, 넘버, 노선번호 > 정보출력
+
+	}
+
+}

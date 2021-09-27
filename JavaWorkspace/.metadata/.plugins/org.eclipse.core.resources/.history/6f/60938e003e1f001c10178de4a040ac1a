@@ -1,0 +1,42 @@
+class Car06{
+	int speed;
+	void upSpeed(int speed) {
+
+		this.speed += speed;
+		System.out.println("현재속도(슈클) >>" + this.speed);
+	}
+}
+
+class Truck06 extends Car06{
+	@Override
+	void upSpeed(int speed) {
+		if(speed > 200) {
+			speed = 200;
+		}
+		super.upSpeed(speed);
+	}
+}
+
+class Sedan06 extends Car06{
+	@Override
+	void upSpeed(int speed) {
+		if(speed > 300) {
+			speed = 300;
+		}
+		super.upSpeed(speed);
+	}
+}
+
+
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		Truck06 truck1 = new Truck06();
+		Sedan06 sedan1 = new Sedan06();
+	
+		truck1.upSpeed(200);
+		sedan1.upSpeed(200);
+	}
+
+}

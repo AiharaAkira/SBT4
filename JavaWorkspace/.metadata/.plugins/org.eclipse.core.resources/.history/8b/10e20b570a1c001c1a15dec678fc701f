@@ -1,0 +1,14 @@
+
+public class Calculator {
+	public Calculator() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public int plus(int x, int y) {
+		return x * y;
+	}
+	
+	public int plus(int x, int y) {
+		return x / y;
+	}
+}

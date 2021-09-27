@@ -1,0 +1,10 @@
+
+public class SportsCar extends Car{
+	private int price;
+	protected SportsCar(String model, String num, int price) {
+		super();
+		this.price = price;
+		
+		
+	}
+}

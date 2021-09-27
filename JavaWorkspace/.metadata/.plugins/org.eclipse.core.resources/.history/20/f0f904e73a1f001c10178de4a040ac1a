@@ -1,0 +1,22 @@
+
+public class Taxi extends Car{
+	private int price;
+	private String model;
+	private String num;
+	
+	public Taxi(String model, String num, int price) {
+		super();
+		this.model = model;
+		this.num = num;
+		this.price = price;
+		
+		
+	}
+	
+	@Override
+	void info() {
+		// TODO Auto-generated method stub
+		super.info();
+		System.out.println(price);
+	}
+}

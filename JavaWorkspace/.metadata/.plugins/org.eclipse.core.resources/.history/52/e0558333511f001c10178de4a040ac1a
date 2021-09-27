@@ -1,0 +1,15 @@
+
+public abstract class Hero {
+	String name;
+	
+	public Hero() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Hero(String name) {
+		super();
+		this.name = name;
+	}
+	
+	abstract void attack();
+}

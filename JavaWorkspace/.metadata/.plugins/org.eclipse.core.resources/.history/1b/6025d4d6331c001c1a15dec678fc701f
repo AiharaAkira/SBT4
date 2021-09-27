@@ -1,0 +1,16 @@
+
+public class Ballpen extends Product{
+	
+	
+	public NoteBook() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+	public void info() {
+		super.info();
+		
+	}
+
+}
