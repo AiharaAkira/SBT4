@@ -1,5 +1,5 @@
 
-public abstract class Phone {
+abstract class Phone {
 	public Phone() {
 		// TODO Auto-generated constructor stub
 	}

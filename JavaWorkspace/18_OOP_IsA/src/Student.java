@@ -3,7 +3,6 @@
 public class Student extends Human{
 	int jpScore;
 	public Student() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	public Student(String name, int age,int jpScore) {

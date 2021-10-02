@@ -30,5 +30,9 @@ public class Product {
 		this.price = price;
 	}
 	
+	void info() {
+		System.out.println(name);
+		System.out.println(price);
+	}
 	
 }

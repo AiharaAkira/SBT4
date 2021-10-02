@@ -16,7 +16,7 @@ public class IAM {
 
 		Student s = new Student("건우", 20, 99);
 
-		s.info();
+	s.info();
 		System.out.println("---------------------");
 
 		// 선생 = 이름, 나이, 담당 과목
